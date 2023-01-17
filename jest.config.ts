@@ -34,6 +34,10 @@ const config: Config.InitialOptions = {
       testMatch: ['<rootDir>/packages/messages/__tests__/**/*.test.ts'],
     },
     {
+      displayName: 'MEETINGS',
+      testMatch: ['<rootDir>/packages/meetings/__tests__/**/*.test.ts'],
+    },
+    {
       displayName: 'NUMBER INSIGHTS',
       testMatch: [
         '<rootDir>/packages/number-insights/__tests__/**/*.test.ts',

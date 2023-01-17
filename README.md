@@ -50,6 +50,7 @@ The following is a list of Vonage APIs and whether the Node Server SDK provides 
 | External Accounts API | Beta |❌|
 | Media API | Beta |❌|
 | Messages API | Beta |✅|
+| Meetings API | Beta |✅|
 | Number Insight API | General Availability |✅|
 | Number Management API | General Availability |✅|
 | Pricing API | General Availability |✅|

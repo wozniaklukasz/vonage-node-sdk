@@ -7,6 +7,14 @@ import {
 import { AuthenticationType } from './enums/AuthenticationType';
 import * as transfomers from './transformers';
 
+export type ClientOptions = {
+    restHost: string
+    apiHost: string
+    videoHost: string
+    responseType: ResponseTypes
+    timeout: number
+}
+
 export abstract class Client {
   protected authType?: AuthenticationType;
 
@@ -19,16 +27,7 @@ export abstract class Client {
         timeout: number
     };
 
-  constructor(
-    credentials: AuthInterface,
-    options?: {
-            restHost: string
-            apiHost: string
-            videoHost: string
-            responseType: ResponseTypes
-            timeout: number
-        },
-  ) {
+  constructor(credentials: AuthInterface, options?: Partial<ClientOptions>) {
     if (typeof credentials.getQueryParams === 'undefined') {
       credentials = new Auth(credentials);
     }
