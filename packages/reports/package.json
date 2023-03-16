@@ -1,0 +1,26 @@
+{
+  "name": "@vonage/reports",
+  "version": "1.0.0",
+  "description": "The Reports API enables you to request a report of activity for your Vonage account.",
+  "author": "Chuck MANCHUCK Reeves <chuck@manchuck.com>",
+  "homepage": "https://github.com/vonage/vonage-node-sdk/tree/main/packages/reports#readme",
+  "license": "Apache-2.0",
+  "main": "lib/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vonage/vonage-node-sdk.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/reports.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Vonage/vonage-node-sdk/issues"
+  }
+}

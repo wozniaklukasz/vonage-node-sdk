@@ -1,0 +1,8 @@
+export enum RequestStatus {
+  ABORTED = 'ABORTED',
+  FAILED = 'FAILED',
+  PENDING = 'PENDING',
+  PROCESSING = 'PROCESSING',
+  SUCCESS = 'SUCCESS',
+  TRUNCATED = 'TRUNCATED'
+}
