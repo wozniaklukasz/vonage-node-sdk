@@ -14,9 +14,7 @@ const config: Config.InitialOptions = {
     },
     {
       displayName: 'APPLICATIONS',
-      testMatch: [
-        '<rootDir>/packages/applications/__tests__/**/*.test.ts',
-      ],
+      testMatch: ['<rootDir>/packages/applications/__tests__/**/*.test.ts'],
       coveragePathIgnorePatterns: ['node_modules', '__tests__'],
     },
     {
@@ -41,9 +39,7 @@ const config: Config.InitialOptions = {
     },
     {
       displayName: 'NUMBER INSIGHTS',
-      testMatch: [
-        '<rootDir>/packages/number-insights/__tests__/**/*.test.ts',
-      ],
+      testMatch: ['<rootDir>/packages/number-insights/__tests__/**/*.test.ts'],
       coveragePathIgnorePatterns: ['node_modules', '__tests__'],
     },
     {
@@ -70,9 +66,7 @@ const config: Config.InitialOptions = {
     },
     {
       displayName: 'SERVER CLIENT',
-      testMatch: [
-        '<rootDir>/packages/server-client/__tests__/**/*.test.ts',
-      ],
+      testMatch: ['<rootDir>/packages/server-client/__tests__/**/*.test.ts'],
       coveragePathIgnorePatterns: ['node_modules', '__tests__'],
     },
     {
@@ -83,6 +77,11 @@ const config: Config.InitialOptions = {
     {
       displayName: 'SMS',
       testMatch: ['<rootDir>/packages/sms/__tests__/**/*.test.ts'],
+      coveragePathIgnorePatterns: ['node_modules', '__tests__'],
+    },
+    {
+      displayName: 'SUB ACCOUNTS',
+      testMatch: ['<rootDir>/packages/subaccounts/__tests__/**/*.test.ts'],
       coveragePathIgnorePatterns: ['node_modules', '__tests__'],
     },
     {
